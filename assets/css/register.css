@@ -1,0 +1,109 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h3{
+font-weight: 600;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 3px;
+    color:#AAAAAA;
+}
+
+.form-check-label{
+    font-size: 14px;
+    color:#000000;
+    font-weight: 600;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .form-check {
+    position: relative;
+  }
+  
+  input[type=checkbox]:checked+label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    left: 0;
+    top: 5px;
+    background-color: #FA9E57;
+    font-family: "Montserrat";
+    border-radius: 2px;
+    border: 1px solid rgb(150 150 150 / 30%);
+  }
+  
+  input[type=checkbox]:checked+label::after {
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>');
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: 6px;
+  }
+
+.form-control{
+    border: 2px solid #AAAAAA !important;
+    border-radius: 30px;
+}
+
+.google, .fb{
+    border: 2px solid #AAAAAA !important;
+    border-radius: 30px;
+    width: 350px;
+}
+
+a{
+    color:#FA9E57;
+}
+
+a:hover{
+    color: #fd7b18;
+}
+
+.btn-daftar{
+    border: 2px  !important;
+    border-radius: 30px;
+    background-color: #FA9E57;
+    width: 350px;
+    color: #fff;
+}
+
+.btn-daftar:hover{
+    background-color: #fd7b18;
+    color: #fff;
+}
+
+.hl {
+    /* margin-top: 25px; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    border: 2px solid #ddd;
+    width: 350px;
+  }
+  
+  /* text inside the vertical line */
+  .hl-innertext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 0px 10px 0px;
+    font-size:12px;
+  }
+  
+  .fa-facebook {
+    color : #3b5998;
+  }
+
+  .fa-google{
+      color : #dd4b39
+  }
