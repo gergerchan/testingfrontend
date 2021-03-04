@@ -2,6 +2,21 @@ body{
     background-color: #DFDFDF;
 }
 
+.funkystyling {
+    background: url(/img/goal/search.png) right no-repeat;
+    padding-right: 17px;
+}
+
+.bg-color{
+    background-color: #DFDFDF;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
 .boxcolor{
     border-radius: 20px;
     background-color: #ffffff;
@@ -14,3 +29,34 @@ body{
     width: auto;
     height: auto;
 }
+
+.warna-bar{
+    background-color: #FA9E57;
+    color: #000;
+    font-weight: 700;
+}
+
+.borderprogress{
+    border-radius: 15px;
+}
+
+.bordersearch{
+    background-color: #DFDFDF;
+    color: #646464;
+    border-color: #646464;
+    border-radius: 30px;
+    border-width: 2px;
+}
+
+.a-style:link , .a-style:visited {
+    text-decoration: none;
+    color: #000;
+}
+  
+  .a-style:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
