@@ -1,0 +1,120 @@
+section.greeting {
+  position: absolute;
+  width: 269px;
+  height: 102px;
+  left: 123px;
+  top: 60px;
+}
+section.greeting > h1 {
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 34px;
+  /* or 106% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+div.form-login {
+  position: absolute;
+  width: 100%;
+  top: 170px;
+  left: 123px;
+}
+
+div.form-login > form > div > input.input-form {
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+
+/* checkbox */
+.containCheck {
+  display: block;
+  padding-left: 15px;
+}
+.containCheck > input[type="checkbox"] {
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  width: 25px;
+  height: 25px;
+  visibility: hidden;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: lightgray;
+}
+.containCheck:hover input ~ .checkmark {
+  background-color: grey;
+  cursor: pointer;
+}
+.containCheck input:active ~ .checkmark {
+  background-color: #fa9e57;
+}
+.containCheck input:checked ~ .checkmark {
+  background-color: #fa9e57;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* display checkmark when checked */
+.containCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* styling the checkmark using webkit */
+/* creating a square to be the sign of 
+              checkmark */
+.containCheck .checkmark:after {
+  left: 9px;
+  top: 8px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* button */
+.btn-signin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fa9e57;
+  border-radius: 25px;
+}
+
+/* hr */
+.atau {
+  border: 1px solid #aaaaaa;
+  transform: rotate(0deg);
+}
+
+/* sign in with other method */
+a.btn {
+  border-radius: 25px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+a.btn > span.logo {
+  position: relative;
+  left: -10px;
+}
+
+/* image login */
+
+div.image-login {
+  margin-top: 100px;
+}

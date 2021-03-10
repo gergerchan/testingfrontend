@@ -1,0 +1,122 @@
+/* Bagian header */
+.logo {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  margin: 22px 0px 0px 61px;
+}
+
+#btn-daftar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  margin: 60px 80px 0px 0px;
+
+  width: 74px;
+  height: 32px;
+  left: 1286px;
+  top: 60px;
+
+  background: #3b3335;
+  border-radius: 32px;
+
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#btn-masuk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  margin: 63px 22px 0px 0px;
+
+  width: 57px;
+  height: 26px;
+  left: 1195px;
+  top: 63px;
+
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* Bagian body */
+
+#body {
+  width: 100%;
+}
+
+#judul {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 100%;
+  color: #111111;
+  margin-bottom: 18px;
+}
+
+#subJudul {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 34px;
+  color: #767676;
+  margin-bottom: 22px;
+}
+
+#caption {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #767676;
+  margin-bottom: 38px;
+}
+
+#btn-mulai {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+
+  position: absolute;
+  width: 193px;
+  height: 56px;
+  left: 122px;
+  /* top: 461px; */
+
+  background: #fa9e57;
+  border-radius: 48px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+#capaiTujuan {
+  padding: 100px 0px 0px 122px;
+}
+
+#manSitting {
+  padding: 0;
+}

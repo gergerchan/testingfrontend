@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head.ejs")%>
+<body>
+    <div class="container-fluid no-padding">
+        <div class="row no-gutters">
+            <div class="col-2">
+                <%- include("../partials/sidebar.ejs")%>
+            </div>
+
+            <div class="col-10" style="overflow-y: auto; height:100vh;">
+                <nav class="navbar sticky-top bg-color">
+                    <span class="navbar-brand ml-2 mb-0"> <h2>Goal</h2></span>
+                    <ul class="navbar-nav px-3 mr-5">
+                        <li class="nav-item text-nowrap">
+                            <div class="input-group">
+                                <input type="text" class="form-control bordersearch " placeholder="Cari goal saya" aria-label="Search" >
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline-secondary borderbutton" type="button"><i class="fa fa-search"></i></button>
+                                </div>
+                              </div>
+                        </li>
+                      </ul>
+                </nav>
+
+                  <div class="row">
+                    <div class="col-8">
+                        <!-- atas box goal -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxcolor  ml-5 mt-4">
+                                    <a href="#" class="a-style">
+                                        <div class="row">
+                                            <div class="col-2 mr-4">
+                                                <img src="assets/img/register-illustration.svg" class="m-3 image-resize" alt="">
+                                            </div>
+                                            <div class="col">
+                                                <p class="mt-3"><h5>Judul Goal</h5></p>
+                                                <p class="mt-4">Deskripsi Goal disini </p>
+                                            </div>
+                                            <div class="col align-self-end mb-4 mr-5">
+                                                <div class="progress borderprogress" style="height: 20px;">
+                                                    <div class="textprogress">2 / 5</div>
+                                                    <div class="progress-bar warna-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- bawah box goal -->
+        
+                        <!-- atas box goal -->
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxcolor  ml-5 mt-4">
+                                    <a href="#" class="a-style">
+                                        <div class="row">
+                                            <div class="col-2 mr-4">
+                                                <img src="assets/img/register-illustration.svg" class="m-3 image-resize" alt="">
+                                            </div>
+                                            <div class="col">
+                                                <p class="mt-3"><h5>Judul Goal</h5></p>
+                                                <p class="mt-4">Deskripsi Goal disini </p>
+                                            </div>
+                                            <div class="col align-self-end mb-4 mr-5">
+                                                <div class="progress borderprogress" style="height: 20px;">
+                                                    <div class="textprogress">2 / 5</div>
+                                                    <div class="progress-bar warna-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- bawah box goal -->
+                    </div>
+                    <div class="col-4"></div>
+                  </div>
+                  <img src="assets/img/register-illustration.svg" class="m-3" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

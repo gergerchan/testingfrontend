@@ -1,36 +1,35 @@
 <nav id="sidebarMenu" class="sidebar">
-    <div class="sidebar-sticky pt-3">
+    <div class="make-sticky">
         <p class="d-flex justify-content-center align-items-center">
             <a href="#">
-            <img src="img/logo-white.svg" alt="home">
+            <img src="assets/img/logo-white.svg" alt="home">
             </a>
         </p>
         <ul class="nav nav-pills flex-column mx-4">
-            <li class="nav-item mb-2">
-                <a class="nav-link active" href="#">
-                <img src="img/sidebar/home.svg" class="mr-3 icon-sidebar" alt="">
-                Home <span class="sr-only">(current)</span>
+            <li class="nav-item">
+                <a class="nav-link <% if ( title === "home") { %> active <% } %> >" href="#">
+                    <img src="assets/img/sidebar/home<% if ( title === "home") { %>-active<% } %>.svg" class="mr-3 icon-sidebar" alt="">
+                    Home <span class="sr-only">(current)</span>
                 </a>
             </li>
-            <li class="nav-item mb-2">
-                <a class="nav-link" href="#">
-                <img src="img/sidebar/check-circle.svg" class="mr-3 icon-sidebar" alt="">
-                Goal
+            <li class="nav-item">
+                <a class="nav-link <% if ( title === "goal") { %> active <% } %>" href="#">
+                    <img src="assets/img/sidebar/check-circle<% if ( title === "goal") { %>-active<% } %>.svg" class="mr-3 icon-sidebar" alt="">
+                    Goal
                 </a>
             </li>
-            <li class="nav-item mb-2">
-                <a class="nav-link" href="#">
-                <img src="img/sidebar/clipboard.svg" class="mr-3 icon-sidebar" alt="">
-                To Do
+            <li class="nav-item">
+                <a class="nav-link <% if ( title === "todo") { %> active <% } %>" href="#">
+                    <img src="assets/img/sidebar/clipboard<% if ( title === "todo") { %>-active<% } %>.svg" class="mr-3 icon-sidebar" alt="">
+                    To Do
                 </a>
             </li>
-            <li class="nav-item mb-2">
-                <a class="nav-link" href="#">
-                <img src="img/sidebar/calendar.svg" class="mr-3 icon-sidebar" alt="">
-                Kalender
+            <li class="nav-item">
+                <a class="nav-link <% if ( title === "kalender") { %> active <% } %>" href="#">
+                    <img src="assets/img/sidebar/calendar<% if ( title === "kalender") { %>-active<% } %>.svg" class="mr-3 icon-sidebar" alt="">
+                    Kalender
                 </a>
             </li>
-        </ul>
-        
+        </ul>        
     </div>
-</nav>
+</nav> 

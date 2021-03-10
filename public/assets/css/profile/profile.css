@@ -1,0 +1,66 @@
+h2.judul {
+  margin-top: 50px;
+  margin-left: -25px;
+}
+h2.judul > a {
+  font-size: 32px;
+  line-height: 34px;
+  color: black;
+}
+h2.judul > a:hover {
+  text-decoration: none;
+  color: #fa9e57;
+}
+
+div#sidebar > div > img {
+  margin-top: -10px;
+  color: grey;
+}
+
+div#sidebar > div > a {
+  margin-left: 20px;
+  font-size: large;
+  color: black;
+  text-decoration: blue;
+}
+
+img.avatar {
+  border-radius: 50%;
+  z-index: -1;
+}
+div.avatar {
+  margin-right: 300px;
+}
+div#editAvatar {
+  position: relative;
+  top: -50px;
+  left: 40px;
+  z-index: 1;
+  padding: 15px;
+  background-color: #fa9e57;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+div#editAvatar > a {
+  position: relative;
+  top: -5px;
+}
+
+div.form-group > input.input-form {
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+
+button.btn-edit {
+  background-color: #fa9e57;
+  border-radius: 25px;
+}
+
+a.selected {
+  font-weight: 600;
+}
+
+hr.pemisah {
+  border: 0.5 inset grey;
+}

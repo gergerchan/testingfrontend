@@ -2,9 +2,8 @@ body{
     background-color: #DFDFDF;
 }
 
-.funkystyling {
-    background: url(/img/goal/search.svg) right no-repeat;
-    padding-right: 17px;
+.height{
+    
 }
 
 .bg-color{
@@ -47,6 +46,12 @@ body{
     border-radius: 30px;
     border-width: 2px;
 }
+.borderbutton{
+    background-color: #DFDFDF;
+    color: #646464;
+    border-color: #646464;
+    border-radius: 30px;
+}
 
 .a-style:link , .a-style:visited {
     text-decoration: none;
@@ -59,4 +64,16 @@ body{
   
   a:active {
     text-decoration: underline;
+  }
+
+  .posisi{
+      display: relative;
+  }
+
+  .textprogress{
+      position: absolute;
+      padding-top: 10px;
+      width: 93%;
+      text-align: center;
+      font-weight: 600;
   }

@@ -1,0 +1,42 @@
+<div class="sidebar" id="sidebar">
+  <!-- edit Profile -->
+  <div class="col-12 mb-4">
+    <img src="/assets/img/icon/pencil.svg" height="20" width="20" alt="" />
+    <% parameter = `index`; %> <% if (data.param === parameter) { %>
+    <a class="selected" href="/profile/<%= parameter %> ">Edit Profile</a>
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <% }else{ %>
+    <a class="active" href="/profile/<%= parameter %> ">Edit Profile</a>
+    <% }; parameter = null; %>
+  </div>
+
+  <!-- password -->
+  <div class="col-12 mb-4">
+    <img src="/assets/img/icon/shield.svg" height="20" width="20" alt="" />
+    <% parameter = `password`; %><% if (data.param === parameter) { %>
+    <a class="selected" href="/profile/<%= parameter %> ">Password</a>
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <% }else{ %>
+    <a class="active" href="/profile/<%= parameter %> ">Password</a>
+    <% }; parameter = null; %>
+  </div>
+
+  <!-- Akun Terhubung -->
+  <div class="col-12 mb-4">
+    <img src="/assets/img/icon/url.svg" height="20" width="20" alt="" />
+    <% parameter = `account`; %><% if (data.param === parameter) { %>
+    <a class="selected" href="/profile/<%= parameter %> ">Akun Terhubung</a>
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <% }else{ %>
+    <a class="active" href="/profile/<%= parameter %> ">Akun terhubung</a>
+    <% }; parameter = null; %>
+  </div>
+
+  <!-- Logout -->
+  <div class="col-12 mb-4">
+    <% parameter = `logout`; %>
+    <img src="/assets/img/icon/logout.svg" height="20" width="20" alt="" />
+    <a href="/profile/<%= parameter %> ">Logout</a>
+    <% parameter = null; %>
+  </div>
+</div>

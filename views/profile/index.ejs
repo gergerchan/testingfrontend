@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/profile/profile.css" />
+
+    <title>Fokus.in</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- profile title -->
+      <%- include (`navbar.ejs`) %>
+      <hr class="pemisah" />
+      <div class="row mt-3">
+        <div class="col-3" style="padding: 0; padding-top: 15px">
+          <!-- Sidebar Profile -->
+          <%- include (`sidebar.ejs`) %>
+        </div>
+
+        <!-- isi kontem -->
+        <div class="col">
+          <h2>Edit Profile</h2>
+          <div class="text-center mt-5 avatar">
+            <img
+              class="avatar"
+              src="/assets/img/profile/avatar.svg"
+              width="130"
+              height="130"
+              alt=""
+            />
+            <div id="editAvatar" class="mx-auto">
+              <a class="mx-auto my-auto" href="">
+                <img
+                  src="/assets/img/icon/pencil_white.svg"
+                  height="20"
+                  width="20"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- form edit -->
+          <div class="form-edit">
+            <form>
+              <!-- value can change with value of database -->
+              <div class="row">
+                <div class="col-4">
+                  <div class="form-group">
+                    <label class="text-secondary" for="FN">Nama Depan</label>
+                    <input
+                      type="text"
+                      class="form-control input-form"
+                      id="FN"
+                      name="FN"
+                      value="First name"
+                    />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="form-group">
+                    <label class="text-secondary" for="Ln">Nama Belakang</label>
+                    <input
+                      type="text"
+                      class="form-control input-form"
+                      id="Ln"
+                      name="Ln"
+                      value="Last Name"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label class="text-secondary" for="email">Email</label>
+                    <input
+                      style="width: 66%"
+                      type="email"
+                      class="form-control input-form"
+                      id="email"
+                      name="email"
+                      value="my@email.com"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label class="text-secondary" for="telephone"
+                      >Nomor Telepon</label
+                    >
+                    <input
+                      style="width: 66%"
+                      type="text"
+                      class="form-control input-form"
+                      id="telephone"
+                      name="telephone"
+                      value="081000000000"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-3">
+                  <button
+                    type="submit"
+                    class="btn btn-edit text-white"
+                    style="width: 100%"
+                  >
+                    Simpan
+                  </button>
+                </div>
+                <div class="col"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- end konten -->
+      </div>
+    </div>
+
+    <!-- footer -->
+    <%- include(`footer.ejs`) %>
+  </body>
+</html>
